@@ -7,14 +7,14 @@ enablePlugins(JavaAppPackaging)
 
 import sbt.Keys._
 
-sbtVersion := "0.13.11"
+sbtVersion := "1.1.6"
 
-val cdhRelease = "cdh5.7.1"
+val cdhRelease = "cdh5.14.2"
 val sparkVersion = s"1.6.0-${cdhRelease}"
 val hbaseVersion = s"1.2.0-${cdhRelease}"
 val hadoopVersion = s"2.6.0-${cdhRelease}"
 val solrVersion = s"4.10.3-${cdhRelease}"
-val sparkAvroVersion = s"1.1.0-${cdhRelease}"
+val sparkAvroVersion = "4.0.0"
 val scalaVersionString = "2.10"
 val sparkTSVersion = "0.3.0"
 val log4jVersion = "1.2.17"
